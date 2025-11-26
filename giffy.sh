@@ -33,6 +33,7 @@ PlasmoidItem {
     
     width: Kirigami.Units.gridUnit * 15
     height: Kirigami.Units.gridUnit * 15
+    Plasmoid.backgroundHints: PlasmaCore.Types.DefaultBackground | PlasmaCore.Types.ConfigurableBackground
     
     property string gifPath: plasmoid.configuration.gifPath || "/path/to/your/image.gif"
     property bool showBorder: plasmoid.configuration.showBorder || false
